@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#searchInput {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchForm button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#searchForm button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+}
